@@ -1,0 +1,43 @@
+
+
+.header {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.text {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.profile {
+  position: absolute;
+  top: 83%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#d {
+    color: black;
+    position: absolute;
+     left: 50%;
+     top: 110%;
+   transform: translate(-50%, -50%);
+}
+
+#more {display: none;}
+
+
+.box {border: 2px solid black;
+  padding-left: 40px;
+  padding-bottom: 10px;
+}
+
+.box div p img {
+  float: right;
+  width:20%;
+  height:110px;
+}
